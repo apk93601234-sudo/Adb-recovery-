@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Recovery ADB</string>
+    <string name="app_subtitle">ערכת ADB ו-Recovery מקומית מלאה (100% אופליין)</string>
+
+    <!-- Navigation -->
+    <string name="nav_connection">חיבור</string>
+    <string name="nav_terminal">טרמינל</string>
+    <string name="nav_tools">כלים</string>
+    <string name="nav_guides">מדריך ולוגים</string>
+
+    <!-- Connection Screen -->
+    <string name="status_connected">מחובר</string>
+    <string name="status_connecting">מתחבר...</string>
+    <string name="status_authorizing">ממתין לאישור RSA במכשיר היעד...</string>
+    <string name="status_disconnected">לא מחובר</string>
+    <string name="status_fastboot">מצב Fastboot (USB)</string>
+    <string name="offline_badge">100% אופליין</string>
+
+    <string name="usb_otg_title">חיבור USB OTG ישיר</string>
+    <string name="usb_scan_button">סרוק התקני USB</string>
+    <string name="usb_no_devices">לא זוהו מכשירי Android ב-USB OTG. חבר כבל OTG עם USB Debugging מופעל.</string>
+    <string name="usb_grant_permission">בקש הרשאת USB</string>
+    <string name="usb_connect_adb">התחבר ל-ADB</string>
+    <string name="usb_connect_fastboot">התחבר ל-Fastboot</string>
+
+    <string name="tcp_connect_title">חיבור ADB מקומי (Wi-Fi / LAN / Loopback)</string>
+    <string name="tcp_host_label">כתובת IP מקומית</string>
+    <string name="tcp_port_label">פורט</string>
+    <string name="tcp_connect_button">התחבר ב-TCP</string>
+    <string name="tcp_disconnect_button">נתק חיבור</string>
+    <string name="tcp_scan_lan_button">סרוק רשת מקומית (5555)</string>
+    <string name="tcp_loopback_chip">מקומי 127.0.0.1:5555</string>
+
+    <string name="rsa_identity_title">זהות מפתח RSA מקומי (ADB Auth)</string>
+    <string name="rsa_regenerate">צור מפתח חדש</string>
+
+    <string name="power_actions_title">פעולות אתחול ו-Recovery</string>
+    <string name="action_reboot_system">אתחול רגיל</string>
+    <string name="action_reboot_recovery">מצב Recovery</string>
+    <string name="action_reboot_bootloader">Bootloader</string>
+    <string name="action_reboot_fastbootd">Fastbootd</string>
+    <string name="action_reboot_sideload">Sideload</string>
+    <string name="action_reboot_edl">מצב EDL</string>
+
+    <!-- Terminal & Scripts -->
+    <string name="terminal_tab">טרמינל חי</string>
+    <string name="scripts_tab">סקריפטים אוטומטיים</string>
+    <string name="terminal_hint">הזן פקודת shell (למשל getprop ro.product.model)...</string>
+    <string name="terminal_run">הרץ</string>
+    <string name="terminal_clear">נקה</string>
+    <string name="terminal_copy">העתק פלט</string>
+    <string name="script_create_button">סקריפט חדש</string>
+    <string name="script_run_button">הרץ רצף</string>
+
+    <!-- Tools & Inspector -->
+    <string name="tools_catalog_tab">מאגר פקודות</string>
+    <string name="tools_packages_tab">חבילות ו-Logcat</string>
+    <string name="tools_image_tab">בודק קבצי Recovery</string>
+    <string name="pick_file_button">בחר קובץ (.img / .zip / .apk)</string>
+    <string name="search_commands_hint">חפש פקודות ADB, Recovery, Fastboot...</string>
+
+    <!-- Guides & History -->
+    <string name="guides_tab">מדריכי יצרנים</string>
+    <string name="history_tab">היסטוריית פקודות</string>
+    <string name="export_logs_button">ייצוא לוגים</string>
+    <string name="clear_history_button">נקה היסטוריה</string>
+
+    <!-- Confirmation & Errors -->
+    <string name="confirm_action_title">אישור פעולה</string>
+    <string name="confirm_yes">אשר והפעל</string>
+    <string name="confirm_cancel">ביטול</string>
+    <string name="error_not_connected">יש להתחבר למכשיר יעד ב-USB OTG או TCP כדי להריץ פקודה חיה.</string>
+</resources>

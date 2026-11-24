@@ -1,0 +1,6 @@
+{
+  "name": "Recovery ADB",
+  "description": "Offline native Android ADB, Fastboot, and Recovery toolkit over USB OTG and local TCP/IP with shell terminal, batch scripts, image inspector, and recovery guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
